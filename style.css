@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    
+    margin: 0 auto;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.game{
+    width: 60vmin;
+    /* height: 250px; */
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.box{
+    background-image: url("https://images.pexels.com/photos/813269/pexels-photo-813269.jpeg?auto=compress&cs=tinysrgb&w=600");
+    margin: 5px;
+    width: 28%;
+    height: 18vmin;
+    display: flex;
+    font-size: 100px;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    color: brown;
+    background-color: blanchedalmond;
+}
+body{
+    text-align: center;
+    background-color: black;
+    background-image: url("https://images.pexels.com/photos/194096/pexels-photo-194096.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+
+button{
+    background-image: url("https://images.pexels.com/photos/1891234/pexels-photo-1891234.jpeg?auto=compress&cs=tinysrgb&w=600");
+    width: 190px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: 600;
+}
+.name{
+    background-image: url("https://images.pexels.com/photos/1891234/pexels-photo-1891234.jpeg?auto=compress&cs=tinysrgb&w=600");
+    margin: 0 auto;
+    margin-top: 10px;
+    font-family: "Teko", sans-serif;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+.msg{
+    margin: 0 auto;
+    font-size: 80px;
+    color: black;
+}
